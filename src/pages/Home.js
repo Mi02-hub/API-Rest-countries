@@ -1,8 +1,7 @@
-
 import React from "react";
-import CountryList from "./components/CountryList";
+import CountryList from "../components/CountryList";
 
-function App() {
+function Home() {
   return (
     <div>
       <h1>Lista de Países</h1>
@@ -11,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
